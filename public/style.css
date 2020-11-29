@@ -100,12 +100,13 @@ body {
 	color: #fff;
 	box-sizing: border-box;
 	border: 2px solid #445161;
-	margin: 0 45px 0 0;
+	margin: 0 45px 25px 0;
 	border-radius: 7px;
 }
 
-.goods__card:nth-of-type(3n) {
-	margin: 0;
+.goods__card:nth-of-type(3n),
+.goods__card:last-of-type {
+	margin: 0 0 25px 0;
 }
 
 .goods__card__title {
